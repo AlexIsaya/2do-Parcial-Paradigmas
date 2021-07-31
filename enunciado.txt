@@ -1,0 +1,24 @@
+Recuperacion 2do Parcial Paradigmas - 19-12-19
+
+Sistema para hacer plazos fijos:
+
+1- Registrar plazo fijo con los sig datos:
+DNI de cliente
+Nombre de cliente
+Cuanto dinero desea depositar
+Fecha actual, cuando hace el deposito
+Cantidad de dias
+Cálculo de cuánto se le va a devolver
+
+Hasta 30 dias -> 0.001% por dia
+Hasta 60 dias -> 0.0015% por dia
+Hasta 90 dias -> 0.0020% por dia
+Más de 90 dias -> 0.0025% por dia
+
+Ejemplo: Si deposita $10000 a 60 dias, tendrá un interés más de $900
+	es decir, se le devolverán $10900
+
+2- Modificar estado: Pagado (que ya se le devolvió el dinero al cliente)
+		     No Pagado (que aún no se le devolvió el dinero al cliente)
+
+3- Listar todos los depósitos No Pagados
