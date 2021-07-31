@@ -1,4 +1,4 @@
-2do Parcial Paradigmas - 19-12-19
+2do Parcial Paradigmas - 19-12-19 - UTN-FRT
 
 Sistema para hacer plazos fijos:
 
